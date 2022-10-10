@@ -12,9 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-  mapbox_gl: ^0.16.0
+  geocoding: ^2.0.5
+  google_maps_flutter: ^2.2.1
+  location: ^4.4.0
+
 
 dev_dependencies:
   flutter_test:
@@ -24,9 +25,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  generate: true
-
-  assets:
-    # Add assets from the images directory to the application.
-    - assets/images/
