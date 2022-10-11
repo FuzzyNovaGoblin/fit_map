@@ -1,10 +1,5 @@
-// ignore_for_file: prefer_const_constructors
-// ignore_for_file: prefer_const_literals_to_create_immutables
-// TODO: get rid of these ^^
-
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:geocoding/geocoding.dart' as geo;
 import 'package:location/location.dart';
 // import 'package:g_map';
 
@@ -12,7 +7,7 @@ class MapPage extends StatefulWidget {
   final LatLng startPoint;
   final LatLng destination;
 
-  MapPage({super.key, required this.startPoint, required this.destination});
+  const MapPage({super.key, required this.startPoint, required this.destination});
 
   @override
   State<MapPage> createState() => _MapPageState();
