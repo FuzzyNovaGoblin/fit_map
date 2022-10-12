@@ -39,7 +39,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                         }
                     } else if name.to_string() == TAG_NAME {
                         for attr in attributes {
-                            if attr.value.to_string().contains("cycle") {
+                            if attr.value.to_string().contains("cycle") || attr.value.to_string().contains("footway") {
                                 way_is_valid = true;
                             }
                         }
