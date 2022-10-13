@@ -1,4 +1,5 @@
-#Fit Map
+# Fit Map
+
 To build the fit map program you must have flutter on your machine. In a command line, using the command:
 
 	$ flutter run
