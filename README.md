@@ -17,17 +17,17 @@ Will list the devices available currently.
 
 When the app runs, you will see a page like this:
 
-![](https://github.com/FuzzyNovaGoblin/fit_map/tree/master/examples/1.jpg)
+![Screenshot 1](examples/1.jpg)
 
 Entering an address into the text bar and then pressing the magnifying glass should change the destination from 0.0, 0.0 to the coordinates of the input address.
 
 Pressing GO! will start the program, which will process for a moment, calculating the path with A\*, and then bring you to a different page with a google map. You may need to zoom in to view it.
 
-![](https://github.com/FuzzyNovaGoblin/fit_map/tree/master/examples/2.jpg)
+![Screenshot 2](examples/2.jpg)
 
 Bear in mind, this program only works for the Burlington, Vermont area, starting locations and destinations outside of this area will cause a long delay while A\* tries helplessly to make a path.
 
 This is a visualization of the area covered by the Nodes:
 
-![](https://github.com/FuzzyNovaGoblin/fit_map/tree/master/examples/3.png)
+![Screenshot 3](examples/3.png)
 
