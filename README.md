@@ -14,7 +14,7 @@ Using the command:
 
 	$ flutter devices
 
-Will list the devices available currently.
+Will list the devices available currently. To run the flutter commands you must be using the flutter command prompt, or add the full path to flutter/bin as a value in your system/user path environment variable.
 
 When the app runs, you will see a page like this:
 
